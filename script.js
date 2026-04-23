@@ -31,6 +31,14 @@ toggleButton.setAttribute("data-action", "status-toggle");
 // Define and call the highlightListItems() function here so it runs on load.
 // You will need to use document.querySelectorAll('li') and a loop structure
 // (like a 'for' loop or 'forEach') to iterate over all list items [3-5].
+function highlightListItems() {
+	const listItems = document.querySelectorAll("li");
+	listItems.forEach((item) => {
+		item.style.color = "blue";
+	});
+}
+
+highlightListItems();
 
 /* ======================================= */
 // --- Tasks 5, 6, 7 & 8: Toggle Functionality ---
