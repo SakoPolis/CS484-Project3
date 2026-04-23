@@ -40,6 +40,12 @@ function toggleStatus(e) {
 	e.preventDefault();
 	const statusDiv = document.getElementById("status-output");
 	statusDiv.classList.toggle("hidden");
+
+	if (!statusDiv.classList.contains("hidden")) {
+		mainTitle.style.backgroundColor = "yellow";
+	} else {
+		mainTitle.style.backgroundColor = "";
+	}
 }
 
 toggleButton.addEventListener("click", toggleStatus);
