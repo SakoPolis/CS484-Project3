@@ -38,7 +38,10 @@ body {
 /* This class must be defined to enable the toggle functionality later. */
 .hidden {
   /* Sets the element to be completely invisible and not take up space. */
-  display: none;
+  /*display: none;*/
+  /* Alternatively, you could use visibility: hidden; to hide the element but still take up space. */
+  /*this stops the button from jumping around like an epilepsy patient*/
+  visibility: hidden;
 }
 
 #item-list li {
