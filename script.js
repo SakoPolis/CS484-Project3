@@ -24,6 +24,7 @@ mainTitle.innerHTML = "DOM Project: Ready!";
 // --- Task 4: Attribute Modification ---
 // Write the code here to use setAttribute() on the toggleButton element
 // to add the required 'data-action' attribute.
+toggleButton.setAttribute("data-action", "status-toggle");
 
 /* ======================================= */
 // --- Task 9: Looping and Applying Changes ---
