@@ -1,3 +1,5 @@
+console.log("Status Manager Started");
+
 // Task 1: Verification Log
 
 // Global variable setup (required for Task 10 using setInterval/clearInterval)
