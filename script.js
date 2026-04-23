@@ -37,6 +37,7 @@ toggleButton.setAttribute("data-action", "status-toggle");
 // Define the functions (e.g., toggleStatus, createTimestamp) and event listeners
 // here to handle the click event on the toggleButton [6, 7].
 function toggleStatus(e) {
+	e.preventDefault();
 	const statusDiv = document.getElementById("status-output");
 	statusDiv.classList.toggle("hidden");
 }
