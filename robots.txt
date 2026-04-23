@@ -1,0 +1,37 @@
+# robots.txt for GitHub Pages
+# This file is served from the repository root.
+
+User-agent: *
+Allow: /
+
+# Deter common web archive crawlers (best-effort only).
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: archive.org_bot
+Disallow: /
+
+User-agent: wayback
+Disallow: /
+
+# Deter common scripted/fake-looking user-agent strings (best-effort only).
+User-agent: curl
+Disallow: /
+
+User-agent: Wget
+Disallow: /
+
+User-agent: python-requests
+Disallow: /
+
+User-agent: libwww-perl
+Disallow: /
+
+User-agent: Go-http-client
+Disallow: /
+
+User-agent: Java
+Disallow: /
+
+User-agent: Scrapy
+Disallow: /
